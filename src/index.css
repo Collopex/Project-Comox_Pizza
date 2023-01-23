@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cinzel", serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-tertiary);
+}
+
+:root {
+  --color-primary: #fc2727;
+  --color-secondary: rgba(29, 28, 28, 0.844);
+  --color-secondary-v2: rgb(38, 36, 36);
+  --color-tertiary: #fff;
+  --color-quadripple: #c85665;
+}
+::selection {
+  color: var(--color-primary);
+}
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 9.5px;
+  background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background: var(--color-primary);
+}
